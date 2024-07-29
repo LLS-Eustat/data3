@@ -1,0 +1,13 @@
+heading: "%country.adjective Garapen Jasangarrirako adierazleen datuak"
+instructions: 'Egin klik helburu batean edo erabili %before_link bilaketa %after_link garapen jasangarrirako helburuen %country.adjective adierazle globaletara sartzeko'
+download_all: 'Deskargatu datu guztiak (.zip)'
+zip_file: zip fitxategia
+intro_title: 'Gure mundua eraldatzeko 17 helburu'
+intro_body: '<a href="https://www.un.org/sustainabledevelopment/en">Garapen Jasangarrirako Helburuak (GJH)</a> edozein lekutan, pobreziarekin, planeta babestearekin eta guztion bizitzak eta ikuspegiak hobetzearekin ekintzarako dei unibertsala dira. Estatu kide guztiek onartu zituzten 17 helburuak 2015ean, <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=ES">Nazio Batuen 2030 Agendaren barruan</a>.'
+heading_short: '%country.adjective Garapen Jasangarrirako Helburuen datuak'
+instructions_short: 'Egin klik helburu bakoitzean Garapen Iraunkorreko Helburuen adierazle globalen %country.adjective datuak ikusteko.'
+instructions_shorter: 'Hautatu helburu bakoitza adierazlearen datuetarako.'
+file_size: Tamaina
+country_name: Euskal Herria
+country_adjective: Eskaldun
+goal_image_base: /tree/develop/assets/img/goals/eu
