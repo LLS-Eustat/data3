@@ -1,6 +1,5 @@
 alpha: PoC
-disclaimer: Este es un sitio web de desarrollo. Agradecemos sus <a href="mailto:%email_contacts.suggestions">comentarios</a>.
-disclaimer: Este es un sitio web experimental. Estamos evaluando OpenSDG. Visite [nuestra Web oficial](https://www.eustat.eus/indicadores/ods.html)
+disclaimer: "Este es un sitio web experimental. Estamos evaluando OpenSDG. Visite (nuestra Web oficial)[https://www.eustat.eus/indicadores/ods.html]"
 skip_link: Saltar al contenido principal
 tag_line: 17 Objetivos para transformar nuestro mundo
 high_contrast: 'Alto contraste'
