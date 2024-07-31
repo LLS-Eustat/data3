@@ -159,4 +159,4 @@ proxy_description: This indicator contains some alternative data to those specif
   available.
 # Description of a footnote that is applied to a particular data value (observation).
 note: note
-x_axis_label: Year
+x_axis_label: 'Year'
