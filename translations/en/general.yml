@@ -16,6 +16,7 @@ target: Target
 targets: Targets
 twitter: Twitter
 facebook: Facebook
+youtube: YouTube
 built_using_open_sdg: Built using Open SDG
 page: Page
 pages: Pages
