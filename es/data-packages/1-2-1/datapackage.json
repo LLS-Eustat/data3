@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "F",
-                "M",
+                "Mujer",
+                "Hombre",
                 ""
               ]
             },
@@ -32,9 +32,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "ES211",
-                "ES212",
-                "ES213",
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
                 ""
               ]
             },
@@ -45,23 +45,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "REG",
-                "NAC",
+                "Autonómico",
+                "Nacional",
                 ""
               ]
             },
-            "title": "Umbral"
+            "title": "Umbral de la pobreza"
           },
           {
             "name": "Ingreso",
             "type": "string",
             "constraints": {
               "enum": [
-                "IMP_RENT",
+                "Ingresos con alquiler imputado",
                 ""
               ]
             },
-            "title": "Ingreso"
+            "title": "Ingresos"
           },
           {
             "name": "GeoCode",
@@ -73,16 +73,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "PT",
+                "Porcentaje",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unidad"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       }

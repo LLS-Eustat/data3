@@ -12,8 +12,34 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Domestic material consumption per capita",
+                "Domestic material consumption per GDP",
+                "Domestic material consumption",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tons per capita",
+                "Kg per 1.000 euro of GDP",
+                "Kilotons",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",

@@ -1,1 +1,141 @@
-Year,Value
+Year,Series,Producto,Territorio,Units,GeoCode,Value
+2010,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,82.46
+2011,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,84.22
+2012,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,86.34
+2013,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,88.82
+2014,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,88.34
+2015,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,89.9
+2016,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,91.15
+2017,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,92.43
+2018,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,93.86
+2019,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,94.85
+2020,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,97.73
+2021,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,100.0
+2022,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,110.86
+2023,Índice 2021=100,Pan,Araba/Álava,Índice,Araba/Álava,122.64
+2010,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,84.08
+2011,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,85.36
+2012,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,87.71
+2013,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,90.17
+2014,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,89.66
+2015,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,91.22
+2016,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,92.59
+2017,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,93.47
+2018,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,95.22
+2019,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,96.16
+2020,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,98.36
+2021,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,100.0
+2022,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,111.17
+2023,Índice 2021=100,Pan,Gipuzkoa,Índice,Gipuzkoa,123.38
+2010,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,83.07
+2011,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,85.1
+2012,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,87.42
+2013,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,90.11
+2014,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,89.46
+2015,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,90.46
+2016,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,92.04
+2017,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,93.46
+2018,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,94.63
+2019,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,95.38
+2020,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,98.29
+2021,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,100.0
+2022,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,111.71
+2023,Índice 2021=100,Pan,Bizkaia,Índice,Bizkaia,124.28
+2010,Índice 2021=100,Pan,,Índice,ES21,83.32
+2011,Índice 2021=100,Pan,,Índice,ES21,85.03
+2012,Índice 2021=100,Pan,,Índice,ES21,87.34
+2013,Índice 2021=100,Pan,,Índice,ES21,89.92
+2014,Índice 2021=100,Pan,,Índice,ES21,89.35
+2015,Índice 2021=100,Pan,,Índice,ES21,90.62
+2016,Índice 2021=100,Pan,,Índice,ES21,92.08
+2017,Índice 2021=100,Pan,,Índice,ES21,93.3
+2018,Índice 2021=100,Pan,,Índice,ES21,94.7
+2019,Índice 2021=100,Pan,,Índice,ES21,95.56
+2020,Índice 2021=100,Pan,,Índice,ES21,98.22
+2021,Índice 2021=100,Pan,,Índice,ES21,100.0
+2022,Índice 2021=100,Pan,,Índice,ES21,111.4
+2023,Índice 2021=100,Pan,,Índice,ES21,123.72
+2010,Índice 2021=100,Pan y cereales,,Índice,ES21,92.21
+2011,Índice 2021=100,Pan y cereales,,Índice,ES21,95.0
+2012,Índice 2021=100,Pan y cereales,,Índice,ES21,97.03
+2013,Índice 2021=100,Pan y cereales,,Índice,ES21,98.29
+2014,Índice 2021=100,Pan y cereales,,Índice,ES21,97.08
+2015,Índice 2021=100,Pan y cereales,,Índice,ES21,96.81
+2016,Índice 2021=100,Pan y cereales,,Índice,ES21,97.2
+2017,Índice 2021=100,Pan y cereales,,Índice,ES21,95.52
+2018,Índice 2021=100,Pan y cereales,,Índice,ES21,96.88
+2019,Índice 2021=100,Pan y cereales,,Índice,ES21,98.42
+2020,Índice 2021=100,Pan y cereales,,Índice,ES21,99.9
+2021,Índice 2021=100,Pan y cereales,,Índice,ES21,100.0
+2022,Índice 2021=100,Pan y cereales,,Índice,ES21,113.89
+2023,Índice 2021=100,Pan y cereales,,Índice,ES21,126.4
+2010,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,0.1
+2011,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,2.13
+2012,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,2.53
+2013,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,2.87
+2014,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,-0.54
+2015,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,1.76
+2016,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,1.39
+2017,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,1.41
+2018,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,1.54
+2019,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,1.06
+2020,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,3.04
+2021,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,2.32
+2022,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,10.86
+2023,Tasa de variación interanual,Pan,Araba/Álava,Porcentaje,Araba/Álava,10.62
+2010,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,-0.9
+2011,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,1.52
+2012,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,2.76
+2013,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,2.81
+2014,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,-0.57
+2015,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,1.74
+2016,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,1.5
+2017,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,0.95
+2018,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,1.88
+2019,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,0.99
+2020,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,2.28
+2021,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,1.67
+2022,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,11.17
+2023,Tasa de variación interanual,Pan,Gipuzkoa,Porcentaje,Gipuzkoa,10.98
+2010,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,-0.8
+2011,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,2.44
+2012,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,2.73
+2013,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,3.07
+2014,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,-0.71
+2015,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,1.12
+2016,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,1.74
+2017,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,1.55
+2018,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,1.25
+2019,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,0.8
+2020,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,3.04
+2021,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,1.74
+2022,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,11.71
+2023,Tasa de variación interanual,Pan,Bizkaia,Porcentaje,Bizkaia,11.25
+2010,Tasa de variación interanual,Pan,,Porcentaje,ES21,-0.7
+2011,Tasa de variación interanual,Pan,,Porcentaje,ES21,2.06
+2012,Tasa de variación interanual,Pan,,Porcentaje,ES21,2.71
+2013,Tasa de variación interanual,Pan,,Porcentaje,ES21,2.95
+2014,Tasa de variación interanual,Pan,,Porcentaje,ES21,-0.64
+2015,Tasa de variación interanual,Pan,,Porcentaje,ES21,1.43
+2016,Tasa de variación interanual,Pan,,Porcentaje,ES21,1.6
+2017,Tasa de variación interanual,Pan,,Porcentaje,ES21,1.33
+2018,Tasa de variación interanual,Pan,,Porcentaje,ES21,1.5
+2019,Tasa de variación interanual,Pan,,Porcentaje,ES21,0.9
+2020,Tasa de variación interanual,Pan,,Porcentaje,ES21,2.79
+2021,Tasa de variación interanual,Pan,,Porcentaje,ES21,1.81
+2022,Tasa de variación interanual,Pan,,Porcentaje,ES21,11.4
+2023,Tasa de variación interanual,Pan,,Porcentaje,ES21,11.07
+2010,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,-0.52
+2011,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,3.03
+2012,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,2.14
+2013,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,1.3
+2014,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,-1.23
+2015,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,-0.28
+2016,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,0.4
+2017,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,-1.72
+2018,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,1.42
+2019,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,1.6
+2020,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,1.5
+2021,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,0.1
+2022,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,13.89
+2023,Tasa de variación interanual,Pan y cereales,,Porcentaje,ES21,10.98

@@ -12,13 +12,67 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "2021=100 Indizea",
+                "Urte arteko aldakuntza tasa",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Producto",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ogia",
+                "Ogia eta zerealak",
+                ""
+              ]
+            },
+            "title": "Produktua"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
+                ""
+              ]
+            },
+            "title": "Lurraldea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Indizea",
+                "Ehunekoa",
+                ""
+              ]
+            },
+            "title": "Unitateak"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Balioa"
           }
         ]
       }

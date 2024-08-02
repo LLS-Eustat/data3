@@ -20,48 +20,48 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "F",
-                "M",
+                "Female",
+                "Male",
                 ""
               ]
             },
-            "title": "Sexo"
+            "title": "Sex"
           },
           {
             "name": "Territorio",
             "type": "string",
             "constraints": {
               "enum": [
-                "ES211",
-                "ES212",
-                "ES213",
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
                 ""
               ]
             },
-            "title": "Territorio"
+            "title": "Province"
           },
           {
             "name": "Umbral",
             "type": "string",
             "constraints": {
               "enum": [
-                "REG",
-                "NAC",
+                "Basque Country",
+                "National",
                 ""
               ]
             },
-            "title": "Umbral"
+            "title": "Poverty treshold"
           },
           {
             "name": "Ingreso",
             "type": "string",
             "constraints": {
               "enum": [
-                "IMP_RENT",
+                "Income with imputed rental",
                 ""
               ]
             },
-            "title": "Ingreso"
+            "title": "Income"
           },
           {
             "name": "GeoCode",
@@ -73,7 +73,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "PT",
+                "Percentage",
                 ""
               ]
             },

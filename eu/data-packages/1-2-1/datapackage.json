@@ -20,48 +20,48 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "F",
-                "M",
+                "Emakumea",
+                "Gizona",
                 ""
               ]
             },
-            "title": "Sexo"
+            "title": "Sexua"
           },
           {
             "name": "Territorio",
             "type": "string",
             "constraints": {
               "enum": [
-                "ES211",
-                "ES212",
-                "ES213",
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
                 ""
               ]
             },
-            "title": "Territorio"
+            "title": "Lurraldea"
           },
           {
             "name": "Umbral",
             "type": "string",
             "constraints": {
               "enum": [
-                "REG",
-                "NAC",
+                "Autonomikoa",
+                "Nazionala",
                 ""
               ]
             },
-            "title": "Umbral"
+            "title": "Pobreziaren atalasea"
           },
           {
             "name": "Ingreso",
             "type": "string",
             "constraints": {
               "enum": [
-                "IMP_RENT",
+                "Diru-sarrerak alokairua egotzita",
                 ""
               ]
             },
-            "title": "Ingreso"
+            "title": "Diru-sarrerak"
           },
           {
             "name": "GeoCode",
@@ -73,16 +73,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "PT",
+                "Ehunekoa",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unitateak"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Balioa"
           }
         ]
       }

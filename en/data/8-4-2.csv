@@ -1,1 +1,34 @@
-Year,Value
+Year,Series,Units,Value
+2010,Domestic material consumption per capita,Tons per capita,14.2
+2011,Domestic material consumption per capita,Tons per capita,10.7
+2012,Domestic material consumption per capita,Tons per capita,9.68
+2013,Domestic material consumption per capita,Tons per capita,8.35
+2014,Domestic material consumption per capita,Tons per capita,9.03
+2015,Domestic material consumption per capita,Tons per capita,10.95
+2016,Domestic material consumption per capita,Tons per capita,9.89
+2017,Domestic material consumption per capita,Tons per capita,12.24
+2018,Domestic material consumption per capita,Tons per capita,13.04
+2019,Domestic material consumption per capita,Tons per capita,12.55
+2020,Domestic material consumption per capita,Tons per capita,10.46
+2010,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,456.31
+2011,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,343.62
+2012,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,317.28
+2013,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,277.83
+2014,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,295.31
+2015,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,347.39
+2016,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,303.97
+2017,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,366.79
+2018,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,379.67
+2019,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,358.96
+2020,Domestic material consumption per GDP,Kg per 1.000 euro of GDP,332.61
+2010,Domestic material consumption,Kilotons,30845.48
+2011,Domestic material consumption,Kilotons,23308.77
+2012,Domestic material consumption,Kilotons,21098.56
+2013,Domestic material consumption,Kilotons,18163.85
+2014,Domestic material consumption,Kilotons,19620.03
+2015,Domestic material consumption,Kilotons,23794.72
+2016,Domestic material consumption,Kilotons,21507.87
+2017,Domestic material consumption,Kilotons,26656.58
+2018,Domestic material consumption,Kilotons,28476.48
+2019,Domestic material consumption,Kilotons,27538.26
+2020,Domestic material consumption,Kilotons,22964.87

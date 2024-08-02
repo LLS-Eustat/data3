@@ -3,6 +3,365 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "7-b-1/data.csv",
+      "name": "7-b-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "TER",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fotovoltaica",
+                "Hidroeléctrica",
+                "Todas las fuentes de energía renovable",
+                "Solar térmica",
+                "Eólica",
+                ""
+              ]
+            },
+            "title": "Fuente de energía renovable"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Watts per cápita",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
+                ""
+              ]
+            },
+            "title": "Territorio"
+          },
+          {
+            "name": "Comarca",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Arabako Lautada / Llanada Alavesa",
+                "Gorbeialdea / Estribaciones del Gorbea",
+                "Arabako Kantaurialdea / Cantábrica Alavesa",
+                "Bidasoa Beherea / Bajo Bidasoa",
+                "Debabarrena / Bajo Deba",
+                "Debagoiena / Alto Deba",
+                "Donostialdea",
+                "Goierri",
+                "Tolosaldea",
+                "Urola Kosta",
+                "Arratia Nerbioi / Arratia-Nervión",
+                "Bilbo Handia / Gran Bilbao",
+                "Durangaldea / Duranguesado",
+                "Enkartazioak / Encartaciones",
+                "Gernika-Bermeo",
+                "Markina-Ondarroa",
+                "Plentzia-Mungia",
+                "Arabako Mendialdea / Montaña Alavesa",
+                "Añana (comarca)",
+                "Arabako Errioxa / Rioja Alavesa",
+                ""
+              ]
+            },
+            "title": "Comarca"
+          },
+          {
+            "name": "Municipio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Alegría-Dulantzi",
+                "Amurrio",
+                "Aramaio",
+                "Artziniega",
+                "Armiñón",
+                "Arratzua-Ubarrundia",
+                "Asparrena",
+                "Ayala/Aiara",
+                "Baños de Ebro/Mañueta",
+                "Barrundia",
+                "Berantevilla",
+                "Bernedo",
+                "Campezo/Kanpezu",
+                "Zigoitia",
+                "Kuartango",
+                "Elburgo/Burgelu",
+                "Elciego",
+                "Elvillar/Bilar",
+                "Iruraiz-Gauna",
+                "Labastida/Bastida",
+                "Lagrán",
+                "Leza",
+                "Laudio/Llodio",
+                "Arraia-Maeztu",
+                "Moreda de Álava/Moreda Araba",
+                "Navaridas",
+                "Okondo",
+                "Peñacerrada-Urizaharra",
+                "Ribera Baja/Erribera Beitia",
+                "Añana",
+                "Samaniego",
+                "San Millán/Donemiliaga",
+                "Urkabustaiz",
+                "Villabuena de Álava/Eskuernaga",
+                "Vitoria-Gasteiz",
+                "Zalduondo",
+                "Zuia",
+                "Iruña Oka/Iruña de Oca",
+                "Abaltzisketa",
+                "Aduna",
+                "Albiztur",
+                "Alegia",
+                "Alkiza",
+                "Altzo",
+                "Amezketa",
+                "Andoain",
+                "Anoeta",
+                "Antzuola",
+                "Arama",
+                "Aretxabaleta",
+                "Asteasu",
+                "Ataun",
+                "Aia",
+                "Azkoitia",
+                "Azpeitia",
+                "Beasain",
+                "Beizama",
+                "Belauntza",
+                "Berastegi",
+                "Berrobi",
+                "Bidania-Goiatz",
+                "Zegama",
+                "Zerain",
+                "Zestoa",
+                "Zizurkil",
+                "Deba",
+                "Eibar",
+                "Elduain",
+                "Elgoibar",
+                "Elgeta",
+                "Eskoriatza",
+                "Ezkio-Itsaso",
+                "Hondarribia",
+                "Gaintza",
+                "Gabiria",
+                "Getaria",
+                "Hernani",
+                "Hernialde",
+                "Ibarra",
+                "Idiazabal",
+                "Ikaztegieta",
+                "Irun",
+                "Irura",
+                "Itsasondo",
+                "Larraul",
+                "Lazkao",
+                "Leaburu",
+                "Legazpi",
+                "Legorreta",
+                "Lezo",
+                "Lizartza",
+                "Arrasate/Mondragón",
+                "Mutriku",
+                "Mutiloa",
+                "Olaberria",
+                "Oñati",
+                "Orexa",
+                "Orio",
+                "Ormaiztegi",
+                "Oiartzun",
+                "Pasaia",
+                "Soraluze/Placencia de las Armas",
+                "Errezil",
+                "Errenteria",
+                "Leintz-Gatzaga",
+                "Donostia / San Sebastián",
+                "Segura",
+                "Tolosa",
+                "Urnieta",
+                "Usurbil",
+                "Bergara",
+                "Villabona",
+                "Ordizia",
+                "Urretxu",
+                "Zaldibia",
+                "Zarautz",
+                "Zumarraga",
+                "Zumaia",
+                "Mendaro",
+                "Lasarte-Oria",
+                "Astigarraga",
+                "Baliarrain",
+                "Orendain",
+                "Altzaga",
+                "Gaztelu",
+                "Abadiño",
+                "Abanto y Ciérvana-Abanto Zierbena",
+                "Amorebieta-Etxano",
+                "Amoroto",
+                "Arakaldo",
+                "Arantzazu",
+                "Munitibar-Arbatzegi Gerrikaitz",
+                "Artzentales",
+                "Arrankudiaga-Zollo",
+                "Arrieta",
+                "Arrigorriaga",
+                "Bakio",
+                "Barakaldo",
+                "Barrika",
+                "Basauri",
+                "Berango",
+                "Bermeo",
+                "Berriatua",
+                "Berriz",
+                "Bilbao",
+                "Busturia",
+                "Karrantza Harana/Valle de Carranza",
+                "Zeanuri",
+                "Zeberio",
+                "Dima",
+                "Durango",
+                "Ea",
+                "Etxebarri",
+                "Etxebarria",
+                "Elantxobe",
+                "Elorrio",
+                "Ereño",
+                "Ermua",
+                "Fruiz",
+                "Galdakao",
+                "Galdames",
+                "Gamiz-Fika",
+                "Garai",
+                "Gatika",
+                "Gautegiz Arteaga",
+                "Gordexola",
+                "Gorliz",
+                "Getxo",
+                "Güeñes",
+                "Gernika-Lumo",
+                "Gizaburuaga",
+                "Ibarrangelu",
+                "Ispaster",
+                "Izurtza",
+                "Lanestosa",
+                "Larrabetzu",
+                "Laukiz",
+                "Leioa",
+                "Lemoa",
+                "Lemoiz",
+                "Lekeitio",
+                "Mañaria",
+                "Markina-Xemein",
+                "Maruri-Jatabe",
+                "Mendata",
+                "Mendexa",
+                "Meñaka",
+                "Ugao-Miraballes",
+                "Morga",
+                "Muxika",
+                "Mundaka",
+                "Mungia",
+                "Aulesti",
+                "Muskiz",
+                "Otxandio",
+                "Ondarroa",
+                "Urduña/Orduña",
+                "Orozko",
+                "Sukarrieta",
+                "Plentzia",
+                "Portugalete",
+                "Errigoiti",
+                "Valle de Trápaga-Trapagaran",
+                "Lezama",
+                "Santurtzi",
+                "Ortuella",
+                "Sestao",
+                "Sopela",
+                "Sopuerta",
+                "Trucios-Turtzioz",
+                "Ubide",
+                "Urduliz",
+                "Balmaseda",
+                "Atxondo",
+                "Bedia",
+                "Areatza",
+                "Igorre",
+                "Zaldibar",
+                "Zalla",
+                "Zaratamo",
+                "Derio",
+                "Erandio",
+                "Loiu",
+                "Sondika",
+                "Zamudio",
+                "Forua",
+                "Kortezubi",
+                "Murueta",
+                "Nabarniz",
+                "Iurreta",
+                "Ajangiz",
+                "Alonsotegi",
+                "Zierbena",
+                "Arratzu",
+                "Ziortza-Bolibar",
+                "Kripan",
+                "Laguardia",
+                "Lanciego/Lantziego",
+                "Lapuebla de Labarca",
+                "Oyón-Oion",
+                "Erriberagoitia/Ribera Alta",
+                "Agurain/Salvatierra",
+                "Valdegovía/Gaubea",
+                "Legutio",
+                "Yécora/Iekora",
+                "Zambrana",
+                "Artea",
+                "Mallabia",
+                "Harana/Valle de Arana",
+                "Lantarón",
+                "Aizarnazabal",
+                ""
+              ]
+            },
+            "title": "Municipio"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Installed renewable energy-generating capacity in developing and developed countries (in watts per capita)"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -32,11 +391,89 @@
           {
             "name": "Value",
             "type": "integer",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+    },
+    {
+      "path": "2-c-1/data.csv",
+      "name": "2-c-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice 2021=100",
+                "Tasa de variación interanual",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Producto",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Pan",
+                "Pan y cereales",
+                ""
+              ]
+            },
+            "title": "Producto"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
+                ""
+              ]
+            },
+            "title": "Territorio"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Índice",
+                "Porcentaje",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Indicator of food price anomalies"
     },
     {
       "path": "1-2-1/data.csv",
@@ -58,8 +495,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "F",
-                "M",
+                "Mujer",
+                "Hombre",
                 ""
               ]
             },
@@ -70,9 +507,9 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "ES211",
-                "ES212",
-                "ES213",
+                "Araba/Álava",
+                "Gipuzkoa",
+                "Bizkaia",
                 ""
               ]
             },
@@ -83,23 +520,23 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "REG",
-                "NAC",
+                "Autonómico",
+                "Nacional",
                 ""
               ]
             },
-            "title": "Umbral"
+            "title": "Umbral de la pobreza"
           },
           {
             "name": "Ingreso",
             "type": "string",
             "constraints": {
               "enum": [
-                "IMP_RENT",
+                "Ingresos con alquiler imputado",
                 ""
               ]
             },
-            "title": "Ingreso"
+            "title": "Ingresos"
           },
           {
             "name": "GeoCode",
@@ -111,20 +548,70 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "PT",
+                "Porcentaje",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "Unidad"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
       "title": "Proportion of population living below the national poverty line, by sex and age"
+    },
+    {
+      "path": "8-4-2/data.csv",
+      "name": "8-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Consumo material interno per cápita",
+                "Consumo material interno por PIB",
+                "Consumo material interno en términos absolutos",
+                ""
+              ]
+            },
+            "title": "Serie"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "toneladas per capita",
+                "kg por cada 1.000 euros del PIB",
+                "Kilotoneladas",
+                ""
+              ]
+            },
+            "title": "Unidad"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Valor"
+          }
+        ]
+      },
+      "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
       "path": "10-a-1/data.csv",
@@ -144,7 +631,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -168,7 +655,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -192,7 +679,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -216,7 +703,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -240,7 +727,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -264,7 +751,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -288,7 +775,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -312,7 +799,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -336,7 +823,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -360,7 +847,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -384,7 +871,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -408,7 +895,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -432,7 +919,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -456,7 +943,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -480,7 +967,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -504,7 +991,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -528,7 +1015,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -552,7 +1039,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -576,7 +1063,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -600,7 +1087,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -624,7 +1111,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -648,7 +1135,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -672,7 +1159,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -696,7 +1183,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -720,7 +1207,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -744,35 +1231,11 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
       "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age"
-    },
-    {
-      "path": "2-c-1/data.csv",
-      "name": "2-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Indicator of food price anomalies"
     },
     {
       "path": "16-6-2/data.csv",
@@ -792,7 +1255,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -816,7 +1279,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -840,7 +1303,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -864,7 +1327,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -888,7 +1351,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -912,7 +1375,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -936,7 +1399,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -960,7 +1423,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -984,7 +1447,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1008,7 +1471,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1032,7 +1495,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1056,7 +1519,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1080,7 +1543,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1104,7 +1567,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1128,7 +1591,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1152,7 +1615,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1176,7 +1639,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1200,7 +1663,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1224,7 +1687,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1248,7 +1711,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1272,7 +1735,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1296,7 +1759,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1320,7 +1783,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1344,7 +1807,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1368,7 +1831,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1392,7 +1855,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1416,7 +1879,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1440,7 +1903,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1464,7 +1927,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1488,7 +1951,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1512,7 +1975,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1536,7 +1999,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1560,7 +2023,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1584,7 +2047,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1608,7 +2071,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1632,7 +2095,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1656,7 +2119,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1680,35 +2143,11 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
       "title": "Proportion of domestic budget funded by domestic taxes"
-    },
-    {
-      "path": "8-4-2/data.csv",
-      "name": "8-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
     },
     {
       "path": "16-5-1/data.csv",
@@ -1728,7 +2167,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1752,7 +2191,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1776,7 +2215,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1800,7 +2239,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1824,7 +2263,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1848,7 +2287,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1872,7 +2311,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1896,35 +2335,11 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
       "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments"
-    },
-    {
-      "path": "7-b-1/data.csv",
-      "name": "7-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Installed renewable energy-generating capacity in developing and developed countries (in watts per capita)"
     },
     {
       "path": "16-4-1/data.csv",
@@ -1944,7 +2359,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1968,7 +2383,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -1992,7 +2407,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2016,7 +2431,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2040,7 +2455,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2064,7 +2479,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2088,7 +2503,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2112,7 +2527,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2136,7 +2551,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2160,7 +2575,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2184,7 +2599,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2208,7 +2623,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2232,7 +2647,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2256,7 +2671,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2280,7 +2695,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2304,7 +2719,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2328,7 +2743,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2352,7 +2767,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2376,7 +2791,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2400,7 +2815,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2424,7 +2839,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2448,7 +2863,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2472,7 +2887,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2496,7 +2911,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2520,7 +2935,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2544,7 +2959,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2568,7 +2983,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2592,7 +3007,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2616,7 +3031,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2640,7 +3055,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2664,7 +3079,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2688,7 +3103,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2712,7 +3127,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2736,7 +3151,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2760,7 +3175,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2784,7 +3199,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2808,7 +3223,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2832,7 +3247,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2856,7 +3271,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2880,7 +3295,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2904,7 +3319,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2928,7 +3343,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2952,7 +3367,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -2976,7 +3391,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3000,7 +3415,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3024,7 +3439,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3048,7 +3463,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3072,7 +3487,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3096,7 +3511,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3120,7 +3535,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3144,7 +3559,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3168,7 +3583,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3192,7 +3607,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3216,7 +3631,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3240,7 +3655,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3264,7 +3679,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3288,7 +3703,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3312,7 +3727,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3336,7 +3751,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3360,7 +3775,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3384,7 +3799,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3408,7 +3823,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3432,7 +3847,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3456,7 +3871,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3480,7 +3895,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3504,7 +3919,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3528,7 +3943,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3552,7 +3967,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3576,7 +3991,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3600,7 +4015,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3624,7 +4039,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3648,7 +4063,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3672,7 +4087,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3696,7 +4111,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3720,7 +4135,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3744,7 +4159,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3768,7 +4183,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3792,7 +4207,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3816,7 +4231,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3840,7 +4255,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3864,7 +4279,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3888,7 +4303,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3912,7 +4327,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3936,7 +4351,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3960,7 +4375,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -3984,7 +4399,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4008,7 +4423,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4032,7 +4447,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4056,7 +4471,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4080,7 +4495,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4104,7 +4519,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4128,7 +4543,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4152,7 +4567,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4176,7 +4591,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4200,7 +4615,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4224,7 +4639,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4248,7 +4663,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4272,7 +4687,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4296,7 +4711,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4320,7 +4735,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4344,7 +4759,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4368,7 +4783,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4392,7 +4807,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4416,7 +4831,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4440,7 +4855,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4464,7 +4879,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4488,7 +4903,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4512,7 +4927,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4536,7 +4951,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4560,7 +4975,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4584,7 +4999,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4608,7 +5023,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4632,7 +5047,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4656,7 +5071,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4680,7 +5095,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4704,7 +5119,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4728,7 +5143,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4752,7 +5167,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4776,7 +5191,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4800,7 +5215,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4824,7 +5239,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4848,7 +5263,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4872,7 +5287,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4896,7 +5311,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4920,7 +5335,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4944,7 +5359,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4968,7 +5383,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -4992,7 +5407,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5016,7 +5431,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5040,7 +5455,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5064,7 +5479,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5088,7 +5503,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5112,7 +5527,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5136,7 +5551,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5160,7 +5575,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5184,7 +5599,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5208,7 +5623,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5232,7 +5647,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5256,7 +5671,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5280,7 +5695,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5304,7 +5719,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5328,7 +5743,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5352,7 +5767,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5376,7 +5791,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5400,7 +5815,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5424,7 +5839,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5448,7 +5863,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5472,7 +5887,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5496,7 +5911,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5520,7 +5935,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5544,7 +5959,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5568,7 +5983,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5592,7 +6007,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5616,7 +6031,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5640,7 +6055,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5664,7 +6079,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5688,7 +6103,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5712,7 +6127,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5736,7 +6151,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5760,7 +6175,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5784,7 +6199,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5808,7 +6223,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5832,7 +6247,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5856,7 +6271,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5880,7 +6295,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5904,7 +6319,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5928,7 +6343,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5952,7 +6367,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -5976,7 +6391,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -6000,7 +6415,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },
@@ -6024,7 +6439,7 @@
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Valor"
           }
         ]
       },

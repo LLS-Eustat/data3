@@ -1,6 +1,10 @@
 Disaggregation,Number of indicators,Number of values
+Comarca,1,20
 Group,1,2
 Ingreso,1,1
+Municipio,1,251
+Producto,1,2
 Sexo,1,2
-Territorio,1,3
+TER,1,5
+Territorio,3,3
 Umbral,1,2

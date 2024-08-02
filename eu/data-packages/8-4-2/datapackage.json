@@ -12,13 +12,39 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Barne-kontsumo materiala per capita",
+                "Barne-kontsumo materiala BPGaren arabera",
+                "Barne-kontsumo materiala balio absolututan",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "tonak per capita",
+                "kg BPGko 1.000 euroko",
+                "Kilotonalda",
+                ""
+              ]
+            },
+            "title": "Unitateak"
           },
           {
             "name": "Value",
             "type": "number",
-            "title": "Value"
+            "title": "Balioa"
           }
         ]
       }
