@@ -14,10 +14,7 @@ country_name: The Basque Country
 country_adjective: Basque
 goal_image_base: 'https://github.com/LLS-PoC/translations/www/assets/img/goals/en'
 oceca_title: Joint action OCECA 
-#oceca_content: '<img src="https://raw.githubusercontent.com/eustat-des/site/develop/assets/img/oceca/ocecas_image_en.png" style="width: 200px; float: left; margin-right: 10px;"> 
-#  <a href="https://eustat-des.github.io/site/en/accion_conjunta">Joint action</a> of the Central Statistical Bodies of the Autonomous Communities (OCECAS).'
-oceca_content: '<img src="/develop/assets/img/oceca/ocecas_image_en.png" style="width: 200px; float: left; margin-right: 10px;"> 
-  <a href="https://eustat-des.github.io/site/en/accion_conjunta">Joint action</a> of the Central Statistical Bodies of the Autonomous Communities (OCECAS).'
+oceca_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/oceca/ocecas_image_en.png" style="width: 200px; float: left; margin-right: 10px;"> 
+  <a href="https://lls-eustat.github.io/site3/en/accion_conjunta">Joint action</a> of the Central Statistical Bodies of the Autonomous Communities (OCECAS).'
 lehendakaritza_title: Agenda 2030 in the Basque Country
-#lehendakaritza_content: '<img src="https://raw.githubusercontent.com/eustat-des/site/develop/assets/img/lehendakaritza/Lehendakaritza.png" style="width: 100px; float: left; margin-right: 10px;"> Platform developed in coordination with the <a href="https://www.euskadi.eus/agenda-2030/web01-a2lehetr/es/">General Secretariat of Social Transition and Agenda 2030</a> of the Basque Government  
-lehendakaritza_content: '<img src="/develop/assets/img/lehendakaritza/Lehendakaritza.png" style="width: 100px; float: left; margin-right: 10px;"> Platform developed in coordination with the <a href="https://www.euskadi.eus/agenda-2030/web01-a2lehetr/es/">General Secretariat of Social Transition and Agenda 2030</a> of the Basque Government'  
+lehendakaritza_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/lehendakaritza/Lehendakaritza.png" style="width: 100px; float: left; margin-right: 10px;"> Platform developed in coordination with the <a href="https://www.euskadi.eus/agenda-2030/web01-a2lehetr/es/">General Secretariat of Social Transition and Agenda 2030</a> of the Basque Government  
