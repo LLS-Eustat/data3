@@ -45,7 +45,7 @@ prose:
         field:
             element: text
             label: International organisations(s) responsible for global monitoring (global)
-            translation_key: metadata_fields.SDG_CUSTODIAN_AGENCIES
+           translation_key: metadata_fields.SDG_CUSTODIAN_AGENCIES
             scope: global
       - name: SDG_RELATED_INDICATORS__GLOBAL
         field:
@@ -498,6 +498,12 @@ prose:
             label: References and Documentation
             translation_key: metadata_fields.OTHER_DOC
             scope: national
+#      - name: OCECA
+#        field:
+#            element: text
+#            label: OCECA
+#            translation_key: metadata_fields.OCECA
+#            scope: national
       ######### Last updated dates #########
       - name: "national_data_updated_date"
         field:
