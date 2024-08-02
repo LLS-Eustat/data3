@@ -12,7 +12,7 @@ instructions_short: 'Egin klik helburu bakoitzean Garapen Iraunkorreko Helburuen
 instructions_shorter: Aukeratu helburu bat Euskal AEko Garapen Iraunkorraren adierazleen datuak ikusteko
 file_size: Tamaina
 oceca_title: 'OCECArekin batera' 
-oceca_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/oceca/ocecas_image_es/develop/assets/img/oceca/ocecas_image_es.png" style="width: 200px; float: left; margin-right: 10px;"> 
+oceca_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/oceca/ocecas_image_eu.png" style="width: 200px; float: left; margin-right: 10px;"> 
   Autonomia Erkidegoetako Estatistika Organo Zentralen (OCECAS) <a href="https://lls-eustat.github.io/site3/es/accion_conjunta"> baterako lana </a>.'
 lehendakaritza_title: Agenda 2030 EAEn
 lehendakaritza_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/lehendakaritza/Lehendakaritza.png" style="width: 100px; float: left; margin-right: 10px;"> Plataforma garatu da
