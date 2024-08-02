@@ -106,22 +106,22 @@ reporting_status_extra_fields: []
 #    id_property: rgn17cd
 #    output_subfolder: regions
 #    filename_prefix: indicator_
-map_layers:
-- geojson_file: maps/Territorio.geojson
-  name_property: Nombre
-  id_property: GeoCode
-  output_subfolder: Territorio
-  filename_prefix: indicator_
-- geojson_file: maps/Comarca.geojson
-  name_property: Nombre
-  id_property: GeoCode
-  output_subfolder: Comarca
-  filename_prefix: indicator_
-- geojson_file: maps/Municipio.geojson
-  name_property: Nombre
-  id_property: GeoCode
-  output_subfolder: Municipio
-  filename_prefix: indicator_
+#map_layers:
+#- geojson_file: maps/Territorio.geojson
+#  name_property: Nombre
+#  id_property: GeoCode
+#  output_subfolder: Territorio
+#  filename_prefix: indicator_
+#- geojson_file: maps/Comarca.geojson
+#  name_property: Nombre
+#  id_property: GeoCode
+#  output_subfolder: Comarca
+#  filename_prefix: indicator_
+#- geojson_file: maps/Municipio.geojson
+#  name_property: Nombre
+#  id_property: GeoCode
+#  output_subfolder: Municipio
+#  filename_prefix: indicator_
 # Documentation settings
 # ----------------------
 # This controls the automatic documentation that is created for your build.
@@ -162,5 +162,5 @@ docs_metadata_fields:
       label: Units
     - key: graph_type
       label: Graph type
-    - key: oceca
-      label: OCECA
+ #   - key: oceca
+ #     label: OCECA
