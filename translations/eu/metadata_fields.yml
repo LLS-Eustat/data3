@@ -4,7 +4,8 @@ computation_definitions: Definizioak
 computation_units: Neurri-unitatea
 goal_meta_link: NBEko metadatuetarako esteka
 indicator: Adierazlearen zenbakia
-indicator_definition: Adierazle globalaren deskribapena
+#indicator_definition: Adierazle globalaren deskribapena
+indicator_definition: Adierazle mundialaren deskribapena
 indicator_name: adierazlearen izena
 indicator_sort_order: Adierazlea bistaratzeko agindua (helburua)
 national_data_update_url: Azken aldiz eguneratutako datuak
@@ -83,4 +84,47 @@ rationale_interpretation: Arrazionaltasuna eta interpretazioa
 rational_interpretation: Arrazionaltasuna eta interpretazioa
 copyright: Egile eskubideak
 OTHER_DOC: Erreferentziak eta dokumentazioa
-KONPARABILITY: Arauen alderagarritasuna
+#KONPARABILITY: Arauen alderagarritasuna
+COMPARABILITY: Nazioarteko arauen alderagarritasuna
+COVERAGE: Datuen erabilgarritasuna eta banakapena
+QUALITY_ASSMNT: Kalitatearen ebaluazioa
+QUALITY_ASSURE: Kalitate-asegurua
+QUALITY_MGMNT: Kalitatearen kudeaketa
+DOC_METHOD: Herrialdeen eskura dauden metodoak eta orientabideak, datuak nazio-mailan lortzeko
+REG_AGG: Lurralde-agregazioak
+IMPUTATION: Galdutako balioen tratamendua (i) herrialde mailan eta (ii) lurralde mailan
+ADJUSTMENT: Doikuntzak
+DATA_VALIDATION: Balidazioa
+DATA_KONP: Kalkulu-metodoa
+REC_USE_LIM: Iruzkinak eta mugak
+RATIONALE: Justifikazioa
+OTHER_METHOD: Beste kontsiderazio metodologiko batzuk
+INST_MANDATE: Agintaldi instituzionala
+COMPILING_ORG: Datu-konpiladoreak
+DATA_SOURCE: Datu-hornitzaileak
+REL_CAL_POLICY: Datuak argitaratzeko egutegia
+FREQ_COLL: Datuak biltzeko egutegia
+COLL_METHOD: Datuak biltzeko metodoa
+SOURCE_TYPE: Datu-iturriak
+SRC_TYPE_COLL_METHOD: Datu-iturri mota eta biltzeko metodoa
+CLASS_SYSTEM: Sailkapenak
+UNIT_MEASURE: Neurri-unitatea
+STAT_CONC_DEF: Definizioa eta kontzeptuak
+IND_DEF_CON_CLASS: Definizioa, kontzeptuak eta sailkapenak
+CONTACT_EMAIL: Harremanetarako posta elektronikoa
+CONTACT_MAIL: Harremanetarako helbide elektronikoa
+CONTACT_PHONE: Harremanetarako telefonoa
+CONTACT_FUNCT: Harremanetarako pertsonaren funtzioa
+ORGANISATION_UNIT: Kontaktuak antolatzeko unitatea
+CONTACT_NAME: Harremanetarako pertsona(k)
+CONTACT_ORGANISATION: Antolaketa
+CONTACT: Datu-erreportaria
+SDG_CUSTODIAN_AGENCIES: Mundu mailako jarraipenaz arduratzen diren nazioarteko erakundeak
+SDG_RELATED_INDICATORS: Erlazionatutako adierazleak
+META_LAST_UPDATE: Metadatuak azken aldiz eguneratuta
+SDG_SERIES_DESCR: Serieak
+SDG_INDICATOR: Adierazlea
+SDG_TARGET: Helmuga
+SDG_GOAL: Helburua
+SDG_INDICATOR_INFO: Adierazlearen informazioa
+OCECA: OCECA

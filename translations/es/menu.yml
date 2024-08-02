@@ -1,11 +1,13 @@
 about: Acerca de
 contact_us: Contáctenos
 cookies: Cookies #Galletas
-faq: FAQ
+faq: FAQ - Preguntas Frecuentes
 guidance: Dirección
 menu: Menú
 publications: Publicaciones
-reporting_status: Estado de informes
-updates: 'Actualizaciones'
+#reporting_status: Estado de informes
+reporting_status: Informes
+#updates: 'Actualizaciones'
+updates: Noticias y publicaciones
 categories: 'Categorias'
 info: 'Más información'

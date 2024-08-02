@@ -1,8 +1,10 @@
 heading: "Datos de %country.name para los indicadores de los Objetivos de Desarrollo\
   \ Sostenible"
+#heading_short: Indicadores de la Agenda 2030 para el Desarrollo Sostenible
 instructions: Haga clic en un objetivo o utilice la %before_link búsqueda %after_link
   para acceder a los indicadores globales de %country.name de los Objetivos de Desarrollo
   Sostenible.
+#instructions_shorter: Seleccione un objetivo para ver los datos de los indicadores de Desarrollo Sostenible para la C.A. de Euskadi
 download_all: Descargar todos los datos (.zip)
 zip_file: archivo zip
 intro_title: 17 objetivos para transformar nuestro mundo
@@ -17,6 +19,9 @@ instructions_short: Haga clic en cada objetivo para ver los datos del indicador 
   de los Objetivos de Desarrollo Sostenible de %country.name.
 instructions_shorter: Seleccione cada objetivo para los datos del indicador
 file_size: Tamaño
-country_name: Euskadi
-country_adjective: Vasco
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+oceca_title: 'Acción conjunta OCECAS' 
+oceca_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/oceca/ocecas_image_es.png" style="width: 200px; float: left; margin-right: 10px;"> 
+  <a href="https://lls-eustat.github.io/site3/es/accion_conjunta">Trabajo conjunto</a> de los diferentes Órganos Centrales de Estadística de las Comunidades Autónomas (OCECAS).'
+lehendakaritza_title: Agenda 2030 en Euskadi
+lehendakaritza_content: '<img src="https://raw.githubusercontent.com/lls-eustat/site3/develop/assets/img/lehendakaritza/Lehendakaritza/develop/assets/img/lehendakaritza/Lehendakaritza.png" style="width: 100px; float: left; margin-right: 10px;"> La plataforma se ha desarrollado 
+  en coordinación con la <a href="https://www.euskadi.eus/agenda-2030/web01-a2lehetr/es/">Secretaría General de Transición Social y Agenda 2030</a> del Gobierno Vasco.'       

@@ -3,12 +3,11 @@
 # which are helpers for implementations of Open SDG. This file allows easy use
 # of those functions without altering Python code.
 
-# Languages
+# Languages - ponemos 3 idiomas
 # ---------
 # This tells sdg-build to perform "translated builds" for each of the specified
 # languages. Each build is in its own subfolder - one for each language.
 languages:
-  #- en
   - es
   - eu
   - en
@@ -72,16 +71,15 @@ inputs:
 # project. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
 translations:
-    # This pulls in translations from a Git repository.
-  - class: TranslationInputSdgTranslations
-    source: https://github.com/open-sdg/sdg-translations.git
-    tag: 2.3.0
-    # This pulls in translations from a LOCAL Git repository.
+  # This pulls in translations from a Git repository.
   #- class: TranslationInputSdgTranslations
-   # source: https://github.com/LLS-Eustat/translations   
-    #tag: 2.4.0-dev
-    # Vamos a hacer una copia propia de las traducciones
-    # This pulls in translations from a local 'translations' folder.
+  #  source: https://github.com/open-sdg/sdg-translations.git
+  #  tag: 2.3.0
+
+
+  # Vamos a hacer una copia propia de las traducciones
+
+  # This pulls in translations from a local 'translations' folder.
   - class: TranslationInputYaml
     source: translations
 
@@ -99,13 +97,9 @@ reporting_status_extra_fields: []
 # below and adjust if you would like to use the Open SDG mapping functionality.
 # Note that the GeoJSON files can either be remote (as in the example below) or
 # local, relative to the src_dir specified above.
-# Aquí configuramos los 3 mapas
-#map_layers:
-#  - geojson_file: https://geoportal1-ons.opendata.arcgis.com/datasets/4fcca2a47fed4bfaa1793015a18537ac_4.geojson
-#    name_property: rgn17nm
-#    id_property: rgn17cd
-#    output_subfolder: regions
-#    filename_prefix: indicator_
+
+# AquÃ­ configuramos los 3 mapas
+
 map_layers:
 - geojson_file: maps/Territorio.geojson
   name_property: Nombre
@@ -145,7 +139,7 @@ docs_intro: This is a list of examples of endpoints and output that are
 # This controls the metadata report which is part of the automatic documentation.
 # More info can be found at https://open-sdg.readthedocs.io/en/latest/data-configuration/#docs_metadata_fields
 
-# Añadimos como metadata "oceca". Ver si la documentación en BUILD lo podríamos tener en 3 idiomas
+# AÃ±adimos como metadata "oceca". Ver si la documentaciÃ³n en BUILD lo podrÃ­amos tener en 3 idiomas
 
 docs_metadata_fields:
     - key: reporting_status
