@@ -1,7 +1,5 @@
-#pais: C.A. de
-#adjetivo: de la C.A.
-pais: C.A. de Euskadi
-adjetivo: de la C.A. de Euskadi
+country_name: C.A. de Euskadi
+country_adjective: de la C.A. de Euskadi
 goal: Objetivo
 goals: Objetivos
 home: Inicio
