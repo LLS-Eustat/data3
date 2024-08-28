@@ -1,5 +1,5 @@
 Indicator,Disaggregations,Number of disaggregations
 #1-1-1,Group,1
 #1-2-1,"Territorio, Sexo, Umbral, Ingreso",4
-#2-c-1,"Territorio, Producto",2
-#7-b-1,"TER, Territorio, Comarca, Municipio",4
+#2-c-1,"Producto, Territorio",2
+#7-b-1,"Territorio, TER, Comarca, Municipio",4
