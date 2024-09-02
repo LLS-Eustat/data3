@@ -18,10 +18,14 @@ not_specified: No se especifica
 reported: Informado
 description: El estado de los informes proporciona una descripción general de la cantidad
   de datos de los Objetivos de Desarrollo Sostenible (ODS) que %country.name informa.
-progress_status: Estado del progreso
-progress_not_available: No hay datos
-progress_challenges_remain: Siguen los desafíos
-progress_approaching_target: Acercándose al objetivo
-progress_target_achieved: Objetivo cumplido
+#progress_status: Estado del progreso
+#progress_not_available: No hay datos
+#progress_challenges_remain: Siguen los desafíos
+#progress_approaching_target: Acercándose al objetivo
+#progress_target_achieved: Objetivo cumplido
 no_data_available: Datos no disponibles
 progress_help: ¿Cómo vamos con respecto al objetivo del 2030?
+alcanzado: Meta alcanzada o en vías de alcanzarla
+en_progreso: Progreso razonable, pero es necesario acelerarlo
+retroceso: Estancamiento o retroceso
+no_evaluado: No evaluado
