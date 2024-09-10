@@ -6829,6 +6829,30 @@
       "title": "Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries"
     },
     {
+      "path": "1-2-1 OLD/data.csv",
+      "name": "1-2-1 OLD",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Urtea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "1-2-1 OLD"
+    },
+    {
       "path": "11-5-3/data.csv",
       "name": "11-5-3",
       "profile": "tabular-data-resource",
