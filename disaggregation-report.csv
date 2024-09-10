@@ -1,10 +1,13 @@
 Disaggregation,Number of indicators,Number of values
-Comarca,1,20
+Cobertura,1,2
+Comarca,2,40
+Discapacidad,1,1
 Group,1,2
 Ingreso,1,1
-Municipio,1,251
+Municipio,2,251
 Producto,1,2
-Sexo,1,2
+Residencia,1,1
+Sexo,2,2
 TER,1,5
-Territorio,3,3
+Territorio,4,3
 Umbral,1,2
