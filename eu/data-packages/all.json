@@ -536,6 +536,413 @@
       "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
+      "path": "1-3-1/data.csv",
+      "name": "1-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Urtea"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "EU_COV_PENSN",
+                "EU_COV_RGI",
+                "EU_COV_AES",
+                "EU_COV_RESI",
+                "EU_COV_DIA",
+                ""
+              ]
+            },
+            "title": "Seriea"
+          },
+          {
+            "name": "Sexo",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Emakumea",
+                "Gizona",
+                ""
+              ]
+            },
+            "title": "Sexua"
+          },
+          {
+            "name": "Cobertura",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "TIT",
+                "BEN",
+                ""
+              ]
+            },
+            "title": "Cobertura"
+          },
+          {
+            "name": "Residencia",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "MIGRANT",
+                ""
+              ]
+            },
+            "title": "Residencia"
+          },
+          {
+            "name": "Discapacidad",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "PD",
+                ""
+              ]
+            },
+            "title": "Discapacidad"
+          },
+          {
+            "name": "Territorio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Araba/Álava",
+                "Bizkaia",
+                "Gipuzkoa",
+                ""
+              ]
+            },
+            "title": "Lurraldea"
+          },
+          {
+            "name": "Comarca",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "ES0101",
+                "ES0104",
+                "ES0106",
+                "ES0102",
+                "ES0103",
+                "ES4801",
+                "ES2001",
+                "ES4802",
+                "ES2002",
+                "ES2003",
+                "ES2004",
+                "ES4803",
+                "ES4804",
+                "ES4805",
+                "ES2005",
+                "ES0105",
+                "ES4806",
+                "ES4807",
+                "ES2006",
+                "ES2007",
+                ""
+              ]
+            },
+            "title": "Eskualdea"
+          },
+          {
+            "name": "Municipio",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Abadiño",
+                "Abaltzisketa",
+                "Abanto y Ciérvana-Abanto Zierbena",
+                "Aduna",
+                "Agurain/Salvatierra",
+                "Aia",
+                "Aizarnazabal",
+                "Ajangiz",
+                "Albiztur",
+                "Alegia",
+                "Alegría-Dulantzi",
+                "Alkiza",
+                "Alonsotegi",
+                "Altzaga",
+                "Altzo",
+                "Amezketa",
+                "Amorebieta-Etxano",
+                "Amoroto",
+                "Amurrio",
+                "Andoain",
+                "Anoeta",
+                "Antzuola",
+                "Añana",
+                "Arakaldo",
+                "Arama",
+                "Aramaio",
+                "Arantzazu",
+                "Areatza",
+                "Aretxabaleta",
+                "Armiñón",
+                "Arraia-Maeztu",
+                "Arrankudiaga-Zollo",
+                "Arrasate/Mondragón",
+                "Arratzu",
+                "Arratzua-Ubarrundia",
+                "Arrieta",
+                "Arrigorriaga",
+                "Artea",
+                "Artzentales",
+                "Artziniega",
+                "Asparrena",
+                "Asteasu",
+                "Astigarraga",
+                "Ataun",
+                "Atxondo",
+                "Aulesti",
+                "Ayala/Aiara",
+                "Azkoitia",
+                "Azpeitia",
+                "Bakio",
+                "Baliarrain",
+                "Balmaseda",
+                "Baños de Ebro/Mañueta",
+                "Barakaldo",
+                "Barrika",
+                "Barrundia",
+                "Basauri",
+                "Beasain",
+                "Bedia",
+                "Beizama",
+                "Belauntza",
+                "Berango",
+                "Berantevilla",
+                "Berastegi",
+                "Bergara",
+                "Bermeo",
+                "Bernedo",
+                "Berriatua",
+                "Berriz",
+                "Berrobi",
+                "Bidania-Goiatz",
+                "Bilbao",
+                "Busturia",
+                "Campezo/Kanpezu",
+                "Deba",
+                "Derio",
+                "Dima",
+                "Donostia / San Sebastián",
+                "Durango",
+                "Ea",
+                "Eibar",
+                "Elantxobe",
+                "Elburgo/Burgelu",
+                "Elciego",
+                "Elduain",
+                "Elgeta",
+                "Elgoibar",
+                "Elorrio",
+                "Elvillar/Bilar",
+                "Erandio",
+                "Ereño",
+                "Ermua",
+                "Errenteria",
+                "Errezil",
+                "Erriberagoitia/Ribera Alta",
+                "Errigoiti",
+                "Eskoriatza",
+                "Etxebarri",
+                "Etxebarria",
+                "Ezkio-Itsaso",
+                "Forua",
+                "Fruiz",
+                "Gabiria",
+                "Gaintza",
+                "Galdakao",
+                "Galdames",
+                "Gamiz-Fika",
+                "Garai",
+                "Gatika",
+                "Gautegiz Arteaga",
+                "Gaztelu",
+                "Gernika-Lumo",
+                "Getaria",
+                "Getxo",
+                "Gizaburuaga",
+                "Gordexola",
+                "Gorliz",
+                "Güeñes",
+                "Harana/Valle de Arana",
+                "Hernani",
+                "Hernialde",
+                "Hondarribia",
+                "Ibarra",
+                "Ibarrangelu",
+                "Idiazabal",
+                "Igorre",
+                "Ikaztegieta",
+                "Irun",
+                "Iruña Oka/Iruña de Oca",
+                "Irura",
+                "Iruraiz-Gauna",
+                "Ispaster",
+                "Itsasondo",
+                "Iurreta",
+                "Izurtza",
+                "Karrantza Harana/Valle de Carranza",
+                "Kortezubi",
+                "Kripan",
+                "Kuartango",
+                "Labastida/Bastida",
+                "Lagrán",
+                "Laguardia",
+                "Lanciego/Lantziego",
+                "Lanestosa",
+                "Lantarón",
+                "Lapuebla de Labarca",
+                "Larrabetzu",
+                "Larraul",
+                "Lasarte-Oria",
+                "Laudio/Llodio",
+                "Laukiz",
+                "Lazkao",
+                "Leaburu",
+                "Legazpi",
+                "Legorreta",
+                "Legutio",
+                "Leintz-Gatzaga",
+                "Leioa",
+                "Lekeitio",
+                "Lemoa",
+                "Lemoiz",
+                "Leza",
+                "Lezama",
+                "Lezo",
+                "Lizartza",
+                "Loiu",
+                "Mallabia",
+                "Mañaria",
+                "Markina-Xemein",
+                "Maruri-Jatabe",
+                "Mendaro",
+                "Mendata",
+                "Mendexa",
+                "Meñaka",
+                "Moreda de Álava/Moreda Araba",
+                "Morga",
+                "Mundaka",
+                "Mungia",
+                "Munitibar-Arbatzegi Gerrikaitz",
+                "Murueta",
+                "Muskiz",
+                "Mutiloa",
+                "Mutriku",
+                "Muxika",
+                "Nabarniz",
+                "Navaridas",
+                "Oiartzun",
+                "Okondo",
+                "Olaberria",
+                "Ondarroa",
+                "Oñati",
+                "Ordizia",
+                "Orendain",
+                "Orexa",
+                "Orio",
+                "Ormaiztegi",
+                "Orozko",
+                "Ortuella",
+                "Otxandio",
+                "Oyón-Oion",
+                "Pasaia",
+                "Peñacerrada-Urizaharra",
+                "Plentzia",
+                "Portugalete",
+                "Ribera Baja/Erribera Beitia",
+                "Samaniego",
+                "San Millán/Donemiliaga",
+                "Santurtzi",
+                "Segura",
+                "Sestao",
+                "Sondika",
+                "Sopela",
+                "Sopuerta",
+                "Soraluze/Placencia de las Armas",
+                "Sukarrieta",
+                "Tolosa",
+                "Trucios-Turtzioz",
+                "Ubide",
+                "Ugao-Miraballes",
+                "Urduliz",
+                "Urduña/Orduña",
+                "Urkabustaiz",
+                "Urnieta",
+                "Urretxu",
+                "Usurbil",
+                "Valdegovía/Gaubea",
+                "Valle de Trápaga-Trapagaran",
+                "Villabona",
+                "Villabuena de Álava/Eskuernaga",
+                "Vitoria-Gasteiz",
+                "Yécora/Iekora",
+                "Zaldibar",
+                "Zaldibia",
+                "Zalduondo",
+                "Zalla",
+                "Zambrana",
+                "Zamudio",
+                "Zaratamo",
+                "Zarautz",
+                "Zeanuri",
+                "Zeberio",
+                "Zegama",
+                "Zerain",
+                "Zestoa",
+                "Zierbena",
+                "Zigoitia",
+                "Ziortza-Bolibar",
+                "Zizurkil",
+                "Zuia",
+                "Zumaia",
+                "Zumarraga",
+                ""
+              ]
+            },
+            "title": "Udalerria"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Ehunekoa",
+                "1.000 biztanle bakoitzeko",
+                "PLAZA",
+                ""
+              ]
+            },
+            "title": "Unitateak"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
+    },
+    {
       "path": "2-c-1/data.csv",
       "name": "2-c-1",
       "profile": "tabular-data-resource",
@@ -4982,30 +5389,6 @@
       "title": "Research and development expenditure as a proportion of GDP"
     },
     {
-      "path": "1-3-1/data.csv",
-      "name": "1-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Urtea"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Balioa"
-          }
-        ]
-      },
-      "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable"
-    },
-    {
       "path": "10-c-1/data.csv",
       "name": "10-c-1",
       "profile": "tabular-data-resource",
@@ -5100,6 +5483,30 @@
         ]
       },
       "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment"
+    },
+    {
+      "path": "1-3-1 (2)/data.csv",
+      "name": "1-3-1 (2)",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Urtea"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Balioa"
+          }
+        ]
+      },
+      "title": "Babes sozialeko sistema baten edo gutxieneko maila baten estaldura duen biztanleriaren proportzioa, sexuaren arabera banatuta, eta honako hauek bereiziz: haurrak, langabetuak, adinekoak, desgaitasunen bat duten pertsonak, haurdun dauden emakumeak, jaioberriak, lan-istripuen biktimak, pobreak eta kalteberak"
     },
     {
       "path": "6-a-1/data.csv",
